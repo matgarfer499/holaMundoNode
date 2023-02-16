@@ -3,7 +3,8 @@ os: linux
 files:
   # unzip en ~/app/release
   - source: /
-    destination: /home/ubuntu/app/release
+    destination: /home/ubuntu/app
+    overwrite: true
 file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
