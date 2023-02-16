@@ -2,4 +2,4 @@
 
 
 cd /home/ubuntu/app
-npm install
+npm install -y
