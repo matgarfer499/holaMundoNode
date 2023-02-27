@@ -19,12 +19,15 @@ $ nvm -v
 ```
 $ nvm install node --lts
 $ nvm install npm --lts
+$ nvm install --lts 
+  (este último comando instala node y npm a la vez)
 ```
-## El comando para ejecutar nuestra app:
+
+### El comando para ejecutar nuestra app:
 ```
 $ npm start
 ```
-# Si queremos pararla:
+### Si queremos pararla:
 ```
 $ npm stop
 ```
