@@ -24,6 +24,6 @@ jobs:
     - name: Deploy to EC2
       run: |
         aws deploy create-deployment \
-          --application-name application_node \
-          --deployment-group deployment-group \
+          --application-name HelloWorldNode \
+          --deployment-group despliegueAPP \
           --github-location repository=${{github.repository}},commitId=${{github.sha}}
